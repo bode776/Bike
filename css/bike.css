@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #222222;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.container nav > a {
+    padding: 10px 10px;
+    /* font-size: 14px; */
+}
+.container nav > a:hover {
+    background-color: rgba(73, 73, 73, 0.61);
+    border-radius: 5px;
+}
+.main-section {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(../images/bike-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+section .text {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.text p {
+    font-size: 25px;
+    width: 337px;
+    color: #efefef;
+}
+section .btn {
+    padding: 10px 30px;
+    background-color: #ff3b48;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 20px;
+}
+section .btn:hover {
+    background-color: #ff0919;
+}
+@media (max-width: 600px) {
+    .text h1 {
+        font-size: 40px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+    section .btn {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        height: auto;
+    }
+    header .container {
+        flex-direction: column;
+    }
+    .container .logo {
+        margin-bottom: 15px;
+    }
+    .text h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .text p {
+        font-size: 14px;
+        width: 210px;
+    }
+    section {
+        height: calc(100vh - 110px);
+    }
+    section .btn {
+        padding: 8px 30px;
+        font-size: 12px;
+    }
+    .main-section {
+        background-image: url(../images/bike-mobile.jpg);
+    }
+}
+/* tips.html */

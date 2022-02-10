@@ -1,0 +1,29 @@
+.main {
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+.tip-ct {
+    background-color: #500c23;
+    color: #e3e3e3;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.tip-ct .tips {
+    padding: 20px 40px;
+}
+.tip-ct h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+.tip-ct p {
+    margin: 30px 0;
+    color: #dfdfdf;
+    line-height: 1.5;
+}
+.tips strong {
+    color: #fff;
+}

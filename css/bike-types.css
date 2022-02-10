@@ -1,0 +1,21 @@
+.main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+.main-cards .card {
+    max-width: 300px;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.main-cards .card h2 {
+    padding: 10px 0;
+    color: #00229d;
+}
+.main-cards .card p {
+    line-height: 1.5;
+}
