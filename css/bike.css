@@ -110,7 +110,7 @@ section .btn:hover {
         font-size: 14px;
         width: 210px;
     }
-    section {
+    .main-section {
         height: calc(100vh - 110px);
     }
     section .btn {
