@@ -14,3 +14,7 @@
 .plane-sec .container .pdf-link:hover {
     color: #fff;
 }
+nav .active {
+    background-color: rgba(73, 73, 73, 0.61);
+    border-radius: 5px;
+}
